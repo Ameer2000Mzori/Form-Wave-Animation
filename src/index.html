@@ -11,27 +11,25 @@
     />
   </head>
   <body>
-    <header class="header">
-      <form class="form">
-        <div class="form-Wrapper">
-          <div class="text-Wrap">
-            <h1>Please Login</h1>
-          </div>
-          <div class="label-Input-Wrap">
-            <label for="text">Email</label>
-            <input type="text" />
-            <label for="Password">Password</label>
-            <input type="Password" />
-          </div>
-          <div class="login-Btn-Wrap">
-            <button class="login-Btn">Login</button>
-          </div>
-          <div class="terms-Wrapper">
-            <p>Don't have an account? <a href="#">Register Now!</a></p>
-          </div>
+    <div class="container">
+      <h1>Please Login</h1>
+      <form>
+        <div class="form-control">
+          <input type="text" required />
+          <label>Email</label>
         </div>
+
+        <div class="form-control">
+          <input type="password" required />
+          <label>Password</label>
+        </div>
+
+        <button class="btn">Login</button>
+
+        <p class="text">Don't have an account?<a href="#">Register</a></p>
       </form>
-    </header>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
